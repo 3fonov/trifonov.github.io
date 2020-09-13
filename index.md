@@ -3,3 +3,12 @@ title: Blogging Like a Hacker
 ---
 
 # Hello world!
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
