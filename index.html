@@ -1,0 +1,16 @@
+---
+title: Blogging Like a Hacker
+layout: index
+---
+
+<div class="grid">
+{% for post in site.posts %}
+<a href="{{ post.url }}">
+<div>
+<div class="tile">
+{{ post.title }}
+</div>
+</div>
+</a>
+{% endfor %}
+</div>
