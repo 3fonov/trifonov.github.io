@@ -128,16 +128,16 @@ $('#seek-forward').click(function () {
 $('body').keydown(function (event) {
     if (event.which == 13) {
         event.preventDefault();
-    }
+    } else 
     if (event.keyCode == 32) {
         toggle()
-    }
+    } else
     if (event.keyCode == 37) {
         wavesurfer.skip(-5)
-    }
+    } else
     if (event.keyCode == 39) {
         wavesurfer.skip(5)
-    }
+    } else
     if (event.key >= 0 && event.key <= 9) {
         var k = (event.key == 0 ? 10 : event.key) - 1
         var loc = k / 10.0
