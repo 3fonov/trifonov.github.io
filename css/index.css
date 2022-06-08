@@ -1,0 +1,80 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+}
+div.container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    height: 90vh;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+.progress_wrapper{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+div#progress {
+    background-color: #eeeeee;
+    width: auto;
+    height: 2px;
+    margin: 0 1rem;
+}
+
+div#bar {
+    background-color: #555;
+    width: 0%;
+    height: 2px;
+    position: relative;
+}
+
+div#position{
+    position: absolute;
+    right:0rem;
+    width: 4rem;
+    text-align: center;
+    margin-right: -2rem;
+    top: 0.5rem;
+}
+
+div.controls{
+    display:flex;
+    align-items: center;
+}
+
+div.control{
+    margin:1rem;
+    cursor: pointer;
+}
+div#play{
+    width:5rem;
+    text-align: center;
+}
+div.info {
+    text-align:center;
+}
+#track_title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+div.waveform_block{
+    align-self: stretch;
+    margin: 3rem 1rem;
+}
+#waveform {
+    width: 100%;
+}
+#wave-timeline {
+    width: 100%;
+}
+#wave-keys__wrapper {
+    width: 100%;
+    height: 32px;
+}
+
+.highlight {
+    background-color: blue;
+}

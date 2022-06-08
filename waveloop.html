@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/howler.min.js"></script>
+    <script src="https://kit.fontawesome.com/17ebd3c5f4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/aadsm/jsmediatags/master/dist/jsmediatags.min.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js/dist/plugin/wavesurfer.timeline.js"></script>
+
+    <script>
+
+
+    </script>
+</head>
+
+<body>
+    <div class="container" id="drop">
+        <div class="info">
+            <div id="track_title">teardrop.mp3</div>
+
+        </div>
+        <div class="waveform_block">
+            <div id="wave-keys__wrapper">
+                <canvas id="wave-keys"></canvas>
+            </div>
+            <div id="waveform"></div>
+            <div id="wave-timeline"></div>
+        </div>
+        <div class="controls">
+            <div class="control" id="seek-backward"><i class="fa-solid fa-backward fa-2x"></i></div>
+            <div class="control" id="play"><i class="fa-solid fa-play fa-5x"></i></div>
+            <div class="control" id="seek-forward"><i class="fa-solid fa-forward fa-2x"></i></div>
+
+        </div>
+    </div>
+    <script src="/js/player.js"></script>
+</body>
+
+</html>
